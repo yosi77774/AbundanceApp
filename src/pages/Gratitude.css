@@ -1,0 +1,114 @@
+/* כללי - תצוגה מימין לשמאל */
+.gratitude-container {
+    direction: rtl;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* כותרת */
+  .gratitude-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .gratitude-container p {
+    text-align: center;
+    color: #666;
+  }
+  
+  /* שדות קלט */
+  .gratitude-inputs {
+    margin: 20px 0;
+  }
+  
+  .gratitude-input {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start; /* שמירה על טקסט מימין */
+    text-align: right;
+  }
+  
+  .gratitude-input label {
+    flex-shrink: 0;
+    font-weight: bold;
+    width: 80px; /* רוחב קבוע לתוויות */
+    text-align: right;
+  }
+  
+  .gratitude-input input {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  /* כפתורים */
+  .gratitude-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .save-button {
+    background: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background: #388e3c;
+  }
+  
+  .clear-button {
+    background: #f44336;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover {
+    background: #d32f2f;
+  }
+  
+  /* רשימת התודות שנשמרו */
+  .gratitude-saved {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  .gratitude-saved h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .gratitude-saved ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .gratitude-saved li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .gratitude-saved p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #777;
+    text-align: left;
+  }
+  
