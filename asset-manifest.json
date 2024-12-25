@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AbundanceApp/static/css/main.c179d667.css",
+    "main.js": "/AbundanceApp/static/js/main.0c87fae5.js",
+    "index.html": "/AbundanceApp/index.html",
+    "main.c179d667.css.map": "/AbundanceApp/static/css/main.c179d667.css.map",
+    "main.0c87fae5.js.map": "/AbundanceApp/static/js/main.0c87fae5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c179d667.css",
+    "static/js/main.0c87fae5.js"
+  ]
+}
